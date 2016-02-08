@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+@import url(https://fonts.googleapis.com/css?family=Poller+One);
+body {
+  font-family: 'Raleway', sans-serif;
+  background: url("https://i.ytimg.com/vi/wGenxbNW3vY/maxresdefault.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.pg-header {
+  background-color: rgba(77, 77, 77, 0.8); }
+  .pg-header a {
+    color: #b3b3b3; }
+    .pg-header a:hover {
+      color: yellow; }
+  .pg-header p {
+    color: white; }
+  .pg-header .right-block {
+    text-align: center;
+    padding-top: 3.5rem; }
+    .pg-header .right-block h1 {
+      color: white;
+      font-family: 'Limelight', cursive;
+      font-size: 6rem; }
+  .pg-header .text-block {
+    padding: 4rem;
+    color: white;
+    font-size: 2rem; }
+    .pg-header .text-block:hover {
+      color: yellow; }
+
+.ratrace-area .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=style.css.map */

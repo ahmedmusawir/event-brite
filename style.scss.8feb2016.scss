@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+@import url(https://fonts.googleapis.com/css?family=Poller+One);
+body{ 
+   font-family: 'Raleway', sans-serif;
+   background: url('https://farm2.staticflickr.com/1496/24390587622_dff0239863_z.jpg') no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+} 
+   #pg-header { 
+      background-color: rgba( darken( gray, 20% ), .8 );
+
+      .right-block {
+        text-align: center;
+    
+        padding-top: 3.5rem;
+        // border: 1px solid red;
+        h1 {
+          color: white;
+          font-family: 'Limelight', cursive;
+          font-size: 10rem;
+        }
+
+      }      
+
+      .left-block {
+        // border: 1px solid yellow;
+      }
+   } 
+// body{ background-image: url('https://cdn.tutsplus.com/active/uploads/legacy/tuts/308_textGame/tutorial/WoodBackground.png'); background-repeat: repeat; background-position: center top; } #header2 { height: 200px; width: 980px; } 
+  
+   .service-box {
+      border: 3px solid grey;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+      padding: 1rem;
+      text-align: center;
+      background-color: rgba( darken( gray, 20% ), .8 );
+      color: white;
+
+      // border-radius: 50%;
+
+      .service-header {
+         min-height: 350px;
+         h2 {
+          font-family: 'Poller One', cursive;
+          font-size: 4rem;
+         }
+      }
+
+      .service-text {
+        font-size: 2.5rem;
+        min-height: 350px;
+      }
+
+   }
+   .service-box:hover {
+      background-color: darken( #32CD32, 10% );
+      color: yellow;
+      font-size: 1.5rem;
+   }
