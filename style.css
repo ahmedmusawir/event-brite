@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poller+One);
 body {
   font-family: 'Raleway', sans-serif;
-  background: url("https://i.ytimg.com/vi/wGenxbNW3vY/maxresdefault.jpg") no-repeat center center fixed;
+  background: url("http://www.paulpolitis.com/bwgallery/photographs/large/Refocus1-rain_times_square_1_9112.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,8 +14,6 @@ body {
     color: #b3b3b3; }
     .pg-header a:hover {
       color: yellow; }
-  .pg-header p {
-    color: white; }
   .pg-header .right-block {
     text-align: center;
     padding-top: 3.5rem; }
@@ -30,9 +28,22 @@ body {
     .pg-header .text-block:hover {
       color: yellow; }
 
-.ratrace-area .center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+.ratrace-area {
+  padding-top: 3rem; }
+  .ratrace-area .rat-box {
+    background-color: rgba(153, 0, 0, 0.5); }
+    .ratrace-area .rat-box p {
+      color: white;
+      padding: 1rem; }
+      .ratrace-area .rat-box p:hover {
+        color: yellow; }
+
+.pg-big-box-container .right-box {
+  background-color: rgba(77, 77, 77, 0.8);
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+.pg-big-box-container p {
+  color: white;
+  padding: 2rem; }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,55 +5,119 @@
 @import url(https://fonts.googleapis.com/css?family=Poller+One);
 body{ 
    font-family: 'Raleway', sans-serif;
-   background: url('https://i.ytimg.com/vi/wGenxbNW3vY/maxresdefault.jpg') no-repeat center center fixed; 
+   // background: url('https://dans366.files.wordpress.com/2012/08/redrain.jpg') no-repeat center center fixed; 
+   background: url('http://www.paulpolitis.com/bwgallery/photographs/large/Refocus1-rain_times_square_1_9112.jpg') no-repeat center center fixed; 
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
 } 
-   .pg-header { 
-      background-color: rgba( darken( gray, 20% ), .8 );
+.pg-header { 
+  background-color: rgba( darken( gray, 20% ), .8 );
 
-      a {
-        color: lighten( gray, 20% );
-        &:hover {
-          color: yellow;
-        }
-      }
-
-      p {
-        color: white;
-      }
-
-      .right-block {
-        text-align: center;
-    
-        padding-top: 3.5rem;
-        // border: 1px solid red;
-        h1 {
-          color: white;
-          font-family: 'Limelight', cursive;
-          font-size: 6rem;
-        }
-
-      }      
-
-      .text-block {
-        // border: 1px solid yellow;
-        padding: 4rem;
-        color: white;
-        font-size: 2rem;
-
-        &:hover {
-          color: yellow;
-        }
-      }
-   } 
-.ratrace-area {
-
-    .center-block {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+  a {
+    color: lighten( gray, 20% );
+    &:hover {
+      color: yellow;
     }
+  }
+
+
+  .right-block {
+    text-align: center;
+
+    padding-top: 3.5rem;
+    // border: 1px solid red;
+    h1 {
+      color: white;
+      font-family: 'Limelight', cursive;
+      font-size: 6rem;
+    }
+
+  }      
+
+  .text-block {
+    // border: 1px solid yellow;
+    padding: 4rem;
+    color: white;
+    font-size: 2rem;
+
+    &:hover {
+      color: yellow;
+    }
+  }
+} 
+.ratrace-area {
+  
+  padding-top: 3rem;
+
+  .rat-box {
+    background-color: rgba( darken( red, 20% ), .5 );
+
+    p {
+      color: white;
+      padding: 1rem;
+        &:hover {
+          color: yellow;
+        }
+    }
+  }
+ 
 }
+
+.pg-big-box-container {
+
+  .right-box {
+    background-color: rgba( darken( gray, 20% ), .8 );
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+  }
+
+
+    p {
+      color: white;
+      padding: 2rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
